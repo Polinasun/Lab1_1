@@ -28,8 +28,3 @@ def get_car(request):
             return HttpResponse(', '.join([p_.model for p_ in Car.objects.all()]))
     else:
         return HttpResponse('Please write GET')
-
-
-
-
-# Create your views here.

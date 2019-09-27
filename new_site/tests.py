@@ -2,7 +2,7 @@ from django.test import TestCase
 from new_site.models import Car
 # Create your tests here.
 class ProductTest(TestCase):
-
+    @classmethod
     def test_new_car(self):
         file_={'model': 'Toyota'}
         pares=self.client.post(
