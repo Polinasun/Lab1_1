@@ -1,0 +1,25 @@
+language: python
+
+python:
+  - '3.7.4'
+
+deploy:
+  provider: heroku
+
+  buildpack: python
+
+  api_key:
+    secure: ff9b0cc7-0811-4c48-8e78-feb7a0d06a0d
+
+  startegy: git
+
+  app: secret-plains-38596
+
+  on:
+    repo: Polinasun/Lab1_1
+
+  run:
+    - "python manage.py migrate"
+    - restart
+
+script: "python manage.py test"
