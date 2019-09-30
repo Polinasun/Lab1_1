@@ -15,3 +15,4 @@ class ProductTest(TestCase):
     def test_get_car(self):
         pares=self.client.get('/new_site/get_car/?model=Toyota')
         self.assertEqual(pares.status_code, 200)
+#Тесты работайте!
