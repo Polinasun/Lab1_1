@@ -13,7 +13,7 @@ deploy:
 
   startegy: git
 
-  app: secret-plains-38596
+  app: powerful-falls-35066
 
   on:
     repo: Polinasun/Lab1_1
