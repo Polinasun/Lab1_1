@@ -24,6 +24,7 @@ SECRET_KEY = 'mp%fs9*9e*a&g!kcg9@e&i-w)y-mi3!_7gsva)^d2omce)p)u6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+DEBUG_COLLECTSTATIC=1
 #DEBUG = True
 ALLOWED_HOSTS = ['powerful-falls-35066.herokuapp.com']
 #
